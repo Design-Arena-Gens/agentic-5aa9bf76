@@ -886,6 +886,15 @@ venv.bak/
 data/
 datasets/
 
+# ==== Project Overrides ====
+!package.json
+!package-lock.json
+!tsconfig.json
+!public/
+!public/icon.svg
+!public/images/
+!public/images/abaya-pattern.svg
+
 # ===== CUSTOM PROJECT FILES =====
 # Add any project-specific ignores here
 config/secrets.yml

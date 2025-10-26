@@ -1,0 +1,17 @@
+<svg width="800" height="1000" viewBox="0 0 800 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sandGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9efe2" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#d8a35d" stop-opacity="0.3" />
+    </linearGradient>
+    <pattern id="motif" patternUnits="userSpaceOnUse" width="160" height="200" patternTransform="scale(1)">
+      <path d="M80 0L120 40L80 80L40 40L80 0Z" stroke="#f5dfc2" stroke-width="1.5" fill="url(#sandGradient)"/>
+      <path d="M0 100L40 140L0 180L-40 140L0 100Z" stroke="#f5dfc2" stroke-width="1.5" fill="url(#sandGradient)"/>
+      <path d="M160 100L200 140L160 180L120 140L160 100Z" stroke="#f5dfc2" stroke-width="1.5" fill="url(#sandGradient)"/>
+      <circle cx="80" cy="120" r="30" stroke="#f5dfc2" stroke-width="1.2" fill="none" opacity="0.6" />
+      <circle cx="80" cy="120" r="12" fill="#d8a35d" opacity="0.45" />
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="#1a1a1a" />
+  <rect width="800" height="1000" fill="url(#motif)" opacity="0.28" />
+</svg>
